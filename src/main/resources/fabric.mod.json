@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "meowcosmetics",
+  "version": "${version}",
+  "name": "Meow Cosmetics",
+  "description": "Client-side cosmetics: animated capes, cat ears and tail, auras, pets, hide armor. Only you see them. /cosmetics. Slime sprites by Lin-ain (itch.io).",
+  "authors": ["Meowholic_"],
+  "license": "MIT",
+  "icon": "assets/meowcosmetics/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.meowcosmetics.MeowCosmetics"] },
+  "mixins": ["meowcosmetics.mixins.json"],
+  "depends": { "fabricloader": ">=0.19.3", "minecraft": "~26.1", "java": ">=21", "fabric-api": "*" }
+}

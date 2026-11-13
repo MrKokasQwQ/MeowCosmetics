@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.meowcosmetics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["AvatarRendererMixin", "AvatarRenderStateMixin", "LivingEntityRendererAccess", "InventoryScreenAccess"],
+  "injectors": { "defaultRequire": 1 }
+}
